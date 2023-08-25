@@ -1932,10 +1932,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "schema": {
-              "$ref": "./computeRPCommon.json#/definitions/AttachDetachDataDisksResponse"
-            }
+            "description": "OK"
           },
           "202": {
             "description": "Accepted"

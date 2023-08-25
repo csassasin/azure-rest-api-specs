@@ -18,22 +18,10 @@
     }
   },
   "responses": {
-    "200": {
-      "headers": {
-        "location": "https://foo.com/operationstatus"
-      },
-      "body": {
-        "attachedDataDisks": [
-          {
-            "lun": 1,
-            "diskId": "/subscriptions/{subscription-id}/resourceGroups/myResourceGroup/providers/Microsoft.Compute/disks/vmss3176_vmss3176_0_disk2_6c4f554bdafa49baa780eb2d128ff39d"
-          }
-        ]
-      }
-    },
+    "200": {},
     "202": {
       "headers": {
-        "location": "https://foo.com/operationstatus"
+        "Location": "https://management.azure.com/subscriptions/{subscriptionId}/providers/Microsoft.Compute/locations/westus/operations/{operationId}&monitor=true&api-version=2023-07-01"
       }
     }
   }

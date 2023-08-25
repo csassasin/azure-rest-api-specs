@@ -1935,25 +1935,6 @@
       },
       "description": "Specifies the input for attaching and detaching a list of managed data disks."
     },
-    "AttachDetachDataDisksResponse": {
-      "properties": {
-        "attachedDataDisks": {
-          "type": "array",
-          "items": {
-            "$ref": "#/definitions/AttachedDataDisk"
-          },
-          "description": "The list of managed data disks that were attached."
-        },
-        "detachedDataDisks": {
-          "type": "array",
-          "items": {
-            "$ref": "#/definitions/DetachedDataDisk"
-          },
-          "description": "The list of managed data disks that were detached."
-        }
-      },
-      "description": "Response for attach and detach data disks request."
-    },
     "AttachDataDisk": {
       "properties": {
         "diskId": {
@@ -1985,31 +1966,6 @@
         "diskId"
       ],
       "description": "Describes the data disk to be detached."
-    },
-    "AttachedDataDisk": {
-      "properties": {
-        "diskId": {
-          "type": "string",
-          "readOnly": true,
-          "description": "ID of the managed data disk."
-        },
-        "lun": {
-          "type": "integer",
-          "readOnly": true,
-          "description": "Specifies the logical unit number of the data disk. This value is used to identify data disks within the VM."
-        }
-      },
-      "description": "Describes the data disks that were requested to be attached."
-    },
-    "DetachedDataDisk": {
-      "properties": {
-        "diskId": {
-          "type": "string",
-          "readOnly": true,
-          "description": "ID of the managed data disk."
-        }
-      },
-      "description": "Describes the data disks that were requested to be detached."
     }
   }
 }
