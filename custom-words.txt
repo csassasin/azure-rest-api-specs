@@ -106,6 +106,7 @@ antimeridian
 antispam
 anybuild
 anyofany
+aoai
 aoairesource
 aods
 aosm
@@ -167,6 +168,7 @@ appendpos
 appfigures
 appid
 appinsights
+Applicationkey
 applynetworkconfigurationupdates
 appservice
 appsettings
@@ -200,6 +202,7 @@ asyncoperation
 asyncrhonously
 asyncronously
 atascada
+Atleast
 attachednetworks
 attestationcollateral
 attestationmechanism
@@ -213,6 +216,7 @@ authenticatable
 authenticode
 authkey
 authorizationrules
+authorizecopy
 authpriv
 authprovider
 authproviders
@@ -514,6 +518,8 @@ compat
 compilationjobs
 compilefile
 compositeentities
+computeusage
+Computeusage
 computervision
 concurrentappend
 conda
@@ -703,6 +709,8 @@ deletedstorage
 deletedwithversions
 deletefailed
 deleteissuers
+Deletejob
+Deletejobs
 deleteprivateendpointconnection
 deletesas
 deletetype
@@ -842,6 +850,7 @@ endoftext
 endpointkeys
 endpointname
 endswith
+Entra
 endtime
 enein
 engagementfabric
@@ -897,6 +906,8 @@ exploitability
 exportconfiguration
 exportdevices
 exporterrors
+Exportjobs
+Exportjob
 exportstatus
 externaldatasources
 externaldnsipaddress01
@@ -1165,6 +1176,7 @@ hypernet
 hyperparameters
 hyperparams
 hyperscale
+hyperthread
 hyperv
 hypervcollectors
 iaas
@@ -1200,6 +1212,8 @@ immutabilitypolicy
 importances
 importcollectors
 importdevices
+Importjob
+Importjobs
 imsi
 inari
 inbuild
@@ -1333,6 +1347,7 @@ keyspaces
 keystore
 keytab
 keyvault
+keyvaultkeyuri
 keyvaultproperties
 keyvaulturi
 keyversion
@@ -1526,6 +1541,7 @@ manytoone
 mapbox
 mapconfiguration
 mapconfigurations
+Mapextensions
 mapp
 mapred
 mapreduce
@@ -1612,6 +1628,7 @@ mlflowtrackinguri
 mltable
 mmtc
 mnist
+mobo
 modelmanagement
 modifiedtime
 modifyaclentries
@@ -2307,6 +2324,8 @@ ruleset
 rulesets
 rulestack
 rulestacks
+runasaccount
+runasaccounts
 runbook
 runbooks
 runid
@@ -2356,6 +2375,7 @@ scopemap
 scsv
 scvmm
 sddl
+sdflex
 sdks
 sdwan
 searchbuffer
@@ -2488,6 +2508,7 @@ snmp
 snomed
 snssai
 sobol
+softwareinventories
 softwareplan
 sohsv
 solaris
@@ -2621,6 +2642,7 @@ subvolumes
 subwoofer
 subword
 subwords
+Succeded
 suceeded
 sudoer
 suggesters
@@ -2697,6 +2719,7 @@ termtemplatedef
 testall
 testallroutes
 testbase
+testconnection
 testfailover
 testnew
 testnewroute
@@ -2855,6 +2878,7 @@ unrepaired
 unrestorable
 unsecure
 unsubstituted
+Unsynchronized
 untagged
 untracked
 untrust
@@ -2918,12 +2942,15 @@ vcores
 vcpu
 vcpus
 vcsa
+vectorizable
 vectorize
 vectorizer
 verifyx
 versionid
 versionswithin
 vertica
+Vffs
+VFFS
 vfyc
 vhds
 vhdx
@@ -2956,6 +2983,8 @@ vldb
 vm's
 vmdk
 vmextension
+Vmfs
+VMFS
 vmilr
 vmimage
 vmimages
@@ -2991,11 +3020,15 @@ vpndeviceconfigurationscript
 vray
 vrfs
 vrops
+Vsan
+VSAN
 vsphere
 vsts
 vstsrm
 vuln
 vusers
+Vvol
+VVOL
 vwan
 vxlan
 w3clogfile
@@ -3713,3 +3746,5 @@ vnetblock
 usedCPUMHz
 totalCPUMHz
 docon
+DialOut
+vectorizers
